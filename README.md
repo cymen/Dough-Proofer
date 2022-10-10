@@ -1,6 +1,6 @@
 # Dough Proofer
 
-I wanted a super simple* dough proofer utilizing:
+I wanted a super simple[^1] dough proofer utilizing:
 
 - a cooler
 - a relay (SSR in my case) to turn on/off heating element(s)
@@ -13,4 +13,4 @@ I'm using this to proof sourdough but it should work for anything. In my case, I
 
 Initial code based on a DS18b20 example. I didn't take the time to clean it up -- it would be nice if it just used the first probe it found instead of hard coding an address in like I am now but future me will (probably) fix that!
 
-* not really simple but simple for what I already had on hand
+[^1] not really simple but simple for what I already had on hand
