@@ -73,7 +73,7 @@ void loop()
     }
     nextrun = millis() + 1000;
 
-    if (heating) {
+    if (HEATING) {
       on_time += 1;
     }
 
